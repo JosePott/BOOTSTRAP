@@ -1,0 +1,51 @@
+/* GLOBAL */
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+/* Tools */
+.redondeado{
+    border-radius: 20%;
+
+}
+.alinear{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.container-bottom{
+    margin-bottom: 10%
+}
+.btn-margin{
+    margin-top: 5%;
+}
+
+
+/* Formulario */
+.contenedor-form{
+    display: flex;
+    background-color: #0097A7;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  
+
+}
+.contenedor-form h3{
+    text-align: center;
+    margin-top: 2%;
+    font-size: larger;
+    font-weight: bold;
+}
+.contenedor-form input{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 95%;
+}
+.contenedor-form textarea{
+    width: 95%;
+}
